@@ -1,0 +1,161 @@
+body{
+    background-color: lightgray;
+}
+h1{
+    color: black;
+    text-align: center ;
+    padding-top: 30px;
+}
+.div{
+    background-image:linear-gradient(greenyellow,pink);
+    margin-top: 10vh;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    padding: 50px;
+    border-radius: 4rem;
+}
+.button{
+    margin-top: 10px;
+    margin-left: 18%;
+}
+button {
+    font-size: 24px;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 1.5rem;
+    border: none;
+}
+button:hover{
+    color: white;
+    background-color: greenyellow;
+    border: 3px solid rgb(44, 210, 240);
+    box-shadow: 0 0 1.5rem rgb(44, 210, 240);
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #333; /* Default color */
+    display: none; /* Hide initially */
+    margin-left: 25vh;
+}
+
+
+
+@media (max-width: 991px) {
+    .h1{
+        font-size: 15px;
+    }
+    .div{
+        padding: 10px;
+        margin: 150px 0px 0px 250px;
+        width:500px;
+        height: 350px;
+    }
+    button{
+        margin: 10px;
+    }
+    #result{
+        font-size: 25px;
+        margin-left: 8vh;
+
+    }
+    .button{
+        margin-left: 70px;
+    }
+
+  }
+  
+  @media (max-width: 881px) {
+    .h1{
+        font-size: 10px;
+    }
+    .div{
+        padding: 0px;
+        margin: 150px 0px 0px 250px;
+        width:500px;
+        height: 300px;
+    }
+    button{
+        margin: 10px;
+    }
+    #result{
+        font-size: 20px;
+        margin-left: 8vh;
+
+    }
+    .button{
+        margin-left: 80px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .h1{
+        font-size: 10px;
+    }
+    .div{
+        padding: 10px;
+        margin: 150px 0px 0px 100px;
+        width:450px;
+        height: 300px;
+    }
+    button{
+        margin: 10px;
+    }
+    #result{
+        font-size: 25px;
+        margin-left: 8vh;
+
+    }
+    .button{
+        margin-left: 30px;
+    }
+  }
+  @media (max-width: 540px){
+    .h1{
+        font-size: 10px;
+    }
+    .div{
+        padding: 0px;
+        margin: 150px 0px 0px 50px;
+        width:420px;
+        height: 250px;
+    }
+    button{
+        margin: 10px;
+    }
+    #result{
+        font-size: 20px;
+        margin-left: 8vh;
+
+    }
+    .button{
+        margin-left: 30px;
+    }
+  }
+  @media (max-width: 445px){
+    .h1{
+        font-size: 10px;
+    }
+    .div{
+        padding: 0px;
+        margin: 150px 0px 0px 0px;
+        width:420px;
+        height: 250px;
+    }
+    button{
+        margin: 10px;
+    }
+    #result{
+        font-size: 20px;
+        margin-left: 8vh;
+
+    }
+    .button{
+        margin-left: 30px;
+    }
+  }
+  @media (max-width: 340px) {
+  }

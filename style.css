@@ -42,7 +42,29 @@ button:hover{
     margin-left: 25vh;
 }
 
+@media (max-width: 1110px) {
+    .h1{
+        font-size: 30px;
+    }
+    .div{
+        padding: 10px;
+        margin: 150px 0px 0px 250px;
+        width:600px;
+        height: 350px;
+    }
+    button{
+        margin: 10px;
+    }
+    #result{
+        font-size: 25px;
+        margin-left: 15vh;
 
+    }
+    .button{
+        margin-left: 120px;
+    }
+
+  }
 
 @media (max-width: 991px) {
     .h1{

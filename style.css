@@ -42,7 +42,7 @@ button:hover{
     margin-left: 25vh;
 }
 
-@media (max-width: 1110px) {
+@media (max-width: 1115px) {
     .h1{
         font-size: 30px;
     }

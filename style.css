@@ -137,11 +137,11 @@ button:hover{
   }
   @media (max-width: 445px){
     .h1{
-        font-size: 10px;
+        font-size: 7px;
     }
     .div{
         padding: 0px;
-        margin: 250px 0px 0px 50px;
+        margin: 250px 0px 0px 10px;
         width:380px;
         height: 350px;
     }
@@ -159,11 +159,11 @@ button:hover{
   }
   @media (max-width: 350px){
     .h1{
-        font-size: 10px;
+        font-size: 7px;
     }
     .div{
         padding: 0px;
-        margin: 250px 0px 0px 50px;
+        margin: 250px 0px 0px 10px;
         width:380px;
         height: 350px;
     }

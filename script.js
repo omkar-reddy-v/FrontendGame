@@ -17,7 +17,7 @@ function playGame(userChoice) {
         resultDiv.style.color = "blue"; // Set tie color
     } else if (
         (userChoice === "Rock" && computerChoice === "Scissors") || 
-        // the symbol && is used to represents the logical AND 
+        // The symbol && is used to represents the logical AND 
         // The symbol || is used to represents the logical OR 
         (userChoice === "Paper" && computerChoice === "Rock") ||
         (userChoice === "Scissors" && computerChoice === "Paper")
@@ -33,6 +33,21 @@ function playGame(userChoice) {
     resultDiv.style.display = "block"; // Show result
 
 }
+
+const buttons = document.querySelectorAll('button');
+const texts = document.querySelectorAll('span');
+
+buttons.forEach((button, index) => {
+  button.addEventListener('mouseover', () => {
+    texts[index].style.display = 'inline';
+  });
+  
+  button.addEventListener('mouseout', () => {
+    texts[index].style.display = 'none';
+  });
+});
+
+
 
 rockButton.addEventListener("click", () => playGame("Rock"));
 paperButton.addEventListener("click", () => playGame("Paper"));
